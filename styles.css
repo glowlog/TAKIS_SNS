@@ -1,4 +1,21 @@
 body {
   background-color: #f2274c;
   margin: 0; /* Remove default margin */
+  display: flex; /* Use flexbox to align children */
+}
+
+/* Add this CSS to center and position the right-side div */
+.container {
+  flex: 1; /* Take remaining space */
+  margin: 50px 20px; /* Adjust the margin for spacing */
+}
+
+.right-side {
+  width: 30%; /* Adjust the width as needed */
+  margin: 50px 20px; /* Adjust the margin for spacing */
+  background-color: #008000; /* Optional: Set a background color */
+}
+
+.proliferate-item {
+  font-size: x-large;
 }

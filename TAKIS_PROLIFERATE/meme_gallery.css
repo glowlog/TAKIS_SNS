@@ -1,0 +1,25 @@
+body {
+  background-color: #f2274c; /* Takis color */
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.navigation-box {
+  width: 100px;
+  height: 50px;
+  background-color: #4caf50; /* Green color for Takis */
+  color: #ffffff; /* White text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 2px solid #ffffff; /* White border */
+  border-radius: 5px;
+}
+
+.navigation-box:hover {
+  background-color: #45a049; /* Darker green color on hover */
+}
